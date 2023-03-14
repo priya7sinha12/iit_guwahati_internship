@@ -1,0 +1,13 @@
+.heading{
+    text-align: center;
+    padding: 2%;
+    /* display: grid; */
+}
+
+.content{
+    padding-left: 8%;
+    padding-right: 8%;
+} 
+img{
+    max-height: 500px;
+}

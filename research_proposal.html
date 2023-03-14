@@ -1,0 +1,647 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CIKS</title>
+  <link rel="shortcut icon" type="Image" href="pics/logo.png">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="research.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- <h1>Hello, world!</h1> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <div class="title">
+    <h1 class="container p-3 mr-3">
+      <img src="pics/logo.png" alt="logo" class="im">Centre for Indian Knowledge Systems
+    </h1>
+  </div>
+  <div class="navbar">
+    <nav class="navbar navbar-expand-lg"><!-- bg-body-tertiary */ -->
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav  mb-2 mb-lg-0">
+            <!-- <li class="nav-item">
+                <a href="index.html">
+                  <i class="fas fa-home text-white"></i>
+                </a>
+              </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="acad.html">Academic Programmes</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Administration</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="cppc.html">CPPC</a></li>
+                  <!-- <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="cfac.html">CFAC</a></li>
+                  <li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle  active" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Research
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="research_area.html">Research Areas</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="research_proposal.html">Research Proposals</a></li>
+              </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                People
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="p_advisory_board.html">Advisory Board</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="p_head_of_centre.html">Head of Centre</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="p_faculty.html">Faculty</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="p_staff.html">Staff</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="p_students.html">Student</a></li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul> 
+
+                  </li>-->
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <!-- <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li> -->
+          </ul>
+          <span class="navbar-nav mr-sm-2" id="google_translate_element"></span>
+          <!-- <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container">
+    <h2 class="heading">Research Proposals</h2>
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <div class="mb-1">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+              aria-controls="collapseOne">
+              <h4>Genealogy and philosophy of technology in India</h4>
+            </button>
+          </div>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            <h3>Sub-areas: </h3>
+            <ol>
+              <li>Genealogy and philosophy of technology in Northeast India</li>
+              <li>Investigation into the “technological spirit” of indigenous communities</li>
+              <li>Indigenous ontologies</li>
+              <li>New frameworks for analyzing Indian myths</li>
+              <li>India's influence on western philosophy of technology</li>
+              <li>Measurement of time in Various ontological system of India</li>
+            </ol>
+            <p align="justify">The most important project for any non-western space is to research its ontology with the
+              explicit purpose of proposing a viable world, something which cannot be done without a prior understanding
+              of both the local context and the tools which have global currency and have built western modernity into
+              its universal status. To research the history and philosophy of technology in India is thus to use tools
+              from scriptures, documented rituals, fieldwork, contemporary philosophy, art and political thinking, in
+              order to uncover the technological spirit and set it free, thus composing an ontology which has never
+              existed, yet is truer to this world than anything it has experienced until now.
+            </p>
+            <p align="justify">In any non-western context the ontological system was recorded in the form of myths and
+              cosmogony. For example, in the Assamese case, the eschatology of Vishnu Puranam describes the nature and
+              properties of time through a narrative form, which could easily be inscribed into the mind. It is thus
+              productive to go back to myths, research them and derive affective methodologies, by creating new concepts
+              and frameworks.
+            </p>
+            <p align="justify">In addition, considering the ubiquity of western technology and the manner in which it is
+              generating frames of thought and action across the globe, it is important to understand whether its own
+              genealogy is indebted to non-western elements, in a similar way to the overwhelming non-western influences
+              in the great European movement of the Renaissance. The decolonization of scientific thought has been
+              underway for many decades and it must become an essential component of the research pertaining to the
+              interaction between Indian indigenous knowledge and western formulations.
+            </p>
+            <h4>Orienting bibliography: </h4>
+            <ol>
+              <li>Bose, D.M., Sen, S.N., Subbarayappa, B.V., Eds. (1971). A Concise History opf Science in India. Indian
+                National Science Academy.</li>
+              <li> Raina, D., Habib, S.I. (2004). Domesticating Modern Science. A Social History of Science and Culture
+                in Colonial India. Tulika Books.</li>
+              <li>Thankur, A.K. (2017). Technology of the Tribes of Northeast India. DVS Publishers</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <div class="mb-1">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+              aria-expanded="false" aria-controls="collapseTwo">
+              <h4>South Indian Classical Musical Instruments- A Scientific Understanding</h4>
+            </button>
+          </div>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            <p align="justify">
+              The music instrument creates sound when part of it vibrates rapidly. The column of air inside a wind
+              instrument, the string of a string instrument, or the stretched skin of a percussion instrument all
+              vibrate when played. Sound generated from the musical instruments not only changes emotion but also
+              basic chemistry of the human being.
+            </p>
+            <p align="justify">
+              In the traditional south Indian musical instruments, most of the materials are made out of organic
+              materials, from parts of the plants, trees, animals. Earlier string instruments of south Indian music
+              instruments including venna were made of vegetable fiber, animal gut, silk, horse hair for violin
+              bows. Similarly, traditional percussion instruments were made out of jack wood, rosewood, bone,
+              cowhide leather. The thavil consists of a cylindrical shell hollowed out of a solid block of jackfruit
+              wood. Layers of animal skin (water buffalo on the right, goat on the left) are stretched across the
+              two sides of the shell using hemp hoops attached to the shell. The stick used on the tavil is hard and
+              is made from the purasai tree wood.
+            </p>
+            <p align="justify">
+              There is lot of scope to understand the science behind these materials, treatment for sound
+              generation. Other than material, there is a scope to understand the shape and geometry on the
+              configuration design on the sound generation. In this proposal various traditional organic materials
+              will be taken for the characterisation, various sound creating characteristics at various condition
+              (as received, after specific treatment, and under stretched condition and under various interaction)
+              will be evaluated. Similarly, all these instrument shape, geometry size, and form will be analysis and
+              correlated with sound generation characteristics.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <div class="mb-1">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+              aria-expanded="false" aria-controls="collapseThree">
+              <h4>Archaeometric Analysis of the Ceramic Traditions of Assam</h4>
+            </button>
+          </div>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            <p align="justify">The Ceramic tradition of Assam, an intangible cultural heritage is more than two thousand
+              years old. The earliest handmade pottery in Assam is known from the Neolithic site of Daojali Hading in
+              Dima Hasao district and is dated to 2.7±0.3 ka (LD1728). Intangible cultural heritage is a living form of
+              heritage which is continuously recreated and which evolves as we adapt our practices and traditions in
+              response to our environment. It provides a sense of identity and belonging in relation to our own cultures
+              (UNESCO-2010).
+            </p>
+            <p align="justify">
+              The primary objective of this project is to reconstruct the three thousand year old history of the ceramic
+              tradition of Assam. This will be done by examining the associations of ceramic objects with the
+              stratigraphic features in which they are found, by examining the residues of original contents or surface
+              treatments, by examining the physical properties of ceramic fabrics to assess their suitability for
+              variations functions, such as cooking, building, etc by examining wear marks on objects.
+            </p>
+            <p align="justify">
+              The project aims to modernize the craft by transferring new technologies for bringing changes within the
+              craft for material benefit. This will be done by archaeometric analysis of the terracotta objects to
+              understand the objects ability to contain liquids, to bear loads, to survive sudden heating and cooling,
+              and to withstand impact. These physical, mechanical, and thermal ceramic properties provide information
+              not only on use, but also on the manufacture of the object and the nature of the raw materials. The study
+              of manufacturing techniques of ceramics is useful because ceramic making is an additive procedure in which
+              the sequential stages are noted in the finished products.
+            </p>
+            <p align="justify">
+              If required experiments on modifications in the technique of manufacturing of the product will be
+              undertaken to increase the usability of the product which might increase its market value. With this
+              inputs the ceramic tradition in Assam can be converted it to an organized sector and it will also help in
+              strengthening this traditional craftsmanship. Special attention will be paid for improving the quality of
+              the ceramic products and for increasing the market connectivity. The project aims to propose measures for
+              developing the craft and reinstalling the pride of this dying intangible cultural heritage of Assam.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <div class="mb-1">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
+              aria-expanded="false" aria-controls="collapseFour">
+              <h4>Swidden Cultivation of Northeast India: An Indigenous Knowledge System</h4>
+            </button>
+          </div>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+          <div class="card-body">
+            <p align="justify">Swidden cultivation is fundamental to everyday life of many communities of North East
+              India. The Swidden cultivators call it a land-use practice that reflects (i) indigenous knowledge
+              accumulated through centuries of trial and error, (ii) an intricate balance between product harvest and
+              ecological resilience, and (iii) an impressive degree of agro diversity. Research have also highlighted
+              the custodial role often played by Swidden cultivator communities in preserving forest ecosystems and
+              natural species and to the tight linkages between biological and cultural diversity. The central purpose
+              of this research is to document indigenous strategies of Swidden cultivation in Northeast India.
+            </p>
+            <p align="justify">Objectives:
+            <ol>
+              <li>To document and evaluate indigenous strategies of Swidden cultivation through a process of research
+                and development.</li>
+              <li>Identification of promising indigenous practices</li>
+              <li>Characterisation of the practices</li>
+              <li>Validation of the utility of the practice for other communities </li>
+              <li>Extrapolation to other locations</li>
+              <li>Verification with key farmers and wide-scale extension</li>
+            </ol>
+            </p>
+            <p align="justify">M.S. Swaminathan, father of the green revolution in India, had called the food sector a
+              repository of cultural knowledge. This repository according to him, has provided us with the mechanisms to
+              cope with the various economic, social, and political challenges. Indigenous knowledge is the prime
+              content of this repository. Indigenous knowledge is supposed to be holding the key to solving the problems
+              especially of communities living in remote regions of the world and possessing simple technologies.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headinSix">
+          <div class="mb-1">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsSix"
+              aria-expanded="false" aria-controls="collapsSix">
+              <h4>Traditional Home Construction Materials- A Detailed Scientific Quantification</h4>
+            </button>
+          </div>
+        </div>
+        <div id="collapsSix" class="collapse" aria-labelledby="headinSix" data-parent="#accordion">
+          <div class="card-body">
+            <p align="justify">Before the invention of cement and concrete, natural materials, including clay, straw,
+              hemp, and bamboo were used for the construction of traditional Indian homes. At present steel and cement
+              are being used for home construction. The carbon footprint (CO2 emission) of these cement industries is
+              very high in addition to the many disadvantages associated with reinforced concrete compared to mud.
+            </p>
+            <p align="justify">
+              In the earlier years, mud houses were widely constructed and people lived in these mud homes were very
+              healthy. The clay dig out from the land for foundation was used for the home construction. In addition,
+              various materials including limestone, cow dung, cow milk, jaggery, sugarcane, were added and left it
+              without disturbance for many days under sunlight to assist fermentation. All these organic material help
+              enhance strength as well as breathable characteristics for maintaining comfortable temperature and
+              humidity inside during summer as well as winter. Though the modern construction materials, cement and
+              steel are also being extracted from the earth, these materials are subjected to excessive pressure and
+              temperature during manufacturing.
+            </p>
+            <p align="justify">
+              In this proposal, standard specimen will be developed with appropriate traditional construction materials
+              and suggested traditional methods. Various types of clay will be considered and similarly various organic
+              materials for the fermentation will be explored based on the availability at various geographical regions.
+              These developed materials will be evaluated for all the required building material characterization
+              including rigidity, compression and shear strength ability to absorb sound, resistance against moisture,
+              insects, water, drag, ability to maintain comfortable temperature and humidity. Developed material will
+              also be evaluated for its earthquake resistance. Developed material will be used for construction of one
+              home with actual size and laboratory condition results of the specimen will be correlated with actual
+              conditions.
+            </p>
+            <p align="justify">
+              In this work, traditional floor tiles (Athangudi) will be developed through handmade process and surface
+              temperature of tile under various climate conditions will be measured and compared with machine made
+              modern ceramic tiles. Cold surface temperature of the tile can significantly affect blood circulation in
+              foot, which can cause floor foot nail. Clay roof tiles (Teracotta) having different shape and geometry
+              will also be developed and its heat resistance, weather durability and insulation characteristics will be
+              measured and compared with brick roof </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingSix">
+          <div class="mb-1">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix"
+              aria-expanded="false" aria-controls="collapseSix">
+              <h4>Herbal Plants as source of Phytomedicine or Diet</h4>
+            </button>
+          </div>
+        </div>
+        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+          <div class="card-body">
+            <p align="justify">The North East India is characterized by dense forests and inaccessible terrains with
+              rich unexplored ecosystems. In spite of the advancement in modern healthcare facilities, traditional
+              medical practice still continues to be an integral part of the culture in North East India. More than 200
+              tribes of different ethnic groups, this region is endowed with a variety of medicinal plants and rich
+              traditional knowledge of herbal healing. Some of these herbal medications are consumed as food, while
+              others are taken in the form of decoction, infusion, powder or paste depending upon the ailment. However,
+              a lot of medicinal plants found here still remain unexplored and not properly documented. Ethnomedicinal
+              plants are extensively being investigated to curb the development and spread of numerous diseases. It also
+              serves as a vast resource to support the necessity for more effective novel drugs. Additionally, the
+              phytocompounds identified from these plants also serve as a base for the synthesis of pharmacologically
+              active synthetic analogs for treating various ailments. One such family of medicinal plant widely used in
+              north east India and of great economic value is Zingiberaceae. Alpinia nigra which is a favorite vegetable
+              diet in Assam are being cultivated due their high medicinal value. Kaempferia rotunda and Curcuma
+              angustifolia are well known for its use in ethnomedicine as demulcent, anthelmintic, antipyretic and blood
+              coagulant. It was found that the boiled water extract of rhizome is used for the treatment of diabetes.
+              Zerumbone isolated from Hedychium coronarium showed potent promising cytoprotective effect potential and
+              antiulcer activity. Potent antibacterial and antifungal phytochemicals are identified from the extract of
+              Zingiber zerumbet. Hedychium spicatum also forms an integral part of the local cuisines in northeast
+              India. The rhizome decoction and root powder of H. spicatum are traditionally used in treating foul
+              breath, nausea, bronchitis, fever, vomiting and indigestion. It has also been reported to exhibit
+              antibacterial against methicillin and vancomycin-resistant Staphylococcus aureus and fungal cultures.
+              Hence, the formulation of these plants may serve as a safe and effective oral hygiene aid to effectively
+              reduce the formation of dental plaque and its associated dental problems. Thus, medicinal plants are vital
+              for pharmacological research and drug development. Project needs to be initiated on the ethnomedicinal
+              investigation and scientific validation of the medicinal plants of north east India.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingSeven">
+          <div class="mb-1">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven"
+              aria-expanded="false" aria-controls="collapseSeven">
+              <h4>Proposal for an anthology of abhangas from the Varkari bhakti tradition of Maharashtra in English
+                translation</h4>
+            </button>
+          </div>
+        </div>
+        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+          <div class="card-body">
+            <p align="justify">The Varkari tradition of Maharashtra retains an enduring continuity. From at least the
+              middle of the 13th century down to contemporary times, this bhakti tradition has existed in an unbroken
+              continuum. It is a continuity of not only customs and rituals including a bi-annual pilgrimage, the vari,
+              that crisscrosses the length and breadth of the entire Marathi-speaking region, but also a body of
+              literature with which the Marathi language, history and identity are deeply implicit. The pilgrimage is to
+              the shrine of Vitthal at Pandharpur in southern Maharashtra. Etymologically Varkari means one who performs
+              the vari. The literature of the Varkari bhakti tradition comprises of the hagiographic lives of the
+              saint-poets associated with this tradition as well as the rich fund of poetry written by them in the form
+              of the abhanga. Singing the abhangas composed by the poet-saints, pilgrims walk on foot in groups called
+              the dindis on the pilgrimage to Pandharpur, therefore mapping the linguistic on to the territorial. The
+              abhangas are routinely sung and performed on the pilgrimage as well as in kirtans and bhajans. Performance
+              therefore is an intrinsic aspect of this poetry, which has been preserved through the centuries through
+              oral and written forms.</p>
+            <p align="justify">However, there is a lack of a substantial body of Varkari poetry in English translation,
+              when compared with translations of bhakti poetry from other Indian language-cultures such as Tamil,
+              Kannada, Hindi, etc. Apart from Dilip Chitre’s Says Tuka published by Penguin in 1991, and my own
+              translations of Chokhamela, On the Threshold: Songs of Chokhamela (New Delhi: 2002 and AltaMira Press:
+              2005 in a revised edition) there exists no composite volume of translations of, if not all, at least the
+              major poets. Papers and books on the historical/religious aspect do attempt some translations, but there
+              is still no anthology of Varkari poetry in English translation.
+            </p>
+            <p align="justify">
+              The proposal is to translate some of the most major and significant Varkari poets in a volume of around
+              250-275 odd pages. It is hoped that this anthology will fulfil a long-felt gap in literary and historical
+              scholarship.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingEight">
+          <div class="mb-1">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight"
+              aria-expanded="false" aria-controls="collapseEight">
+              <h4>Ancient Temple Architecture of Assam</h4>
+            </button>
+          </div>
+        </div>
+        <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+          <div class="card-body">
+            <p align="justify">
+              Architecture is created by the human body, seeking its own sense of movement and of its extensions into
+              space (Schmarsow 1893). By studying concepts of spatiality and their structural model, it is possible to
+              access the pattern of rationality which created them (Criado 1999). Our proposal seek to study built space
+              from a structural, functional and symbolic point of view, attending to their multidimensionally,
+              deconstructing it, with the objective to integrate it in a general pattern of understanding.
+            </p>
+            <p align="justify">
+              In Assam there are no standing ancient or medieval structures. All the structures are in ruins. A few of
+              them which are standing has been renovated in the pre-modern or modern period. Reasons cited for this
+              situation are earthquakes, high rainfall, destructive vegetation, conquest etc. etc. On the basis of
+              epigraphical records it is established that temple building activity began in Assam in the 5th Century AD
+              (Umachal Rock Inscription in Kamakhya, Guwahati). Studying the ruins in Kamrup, Sonitpur, Nagaon districts
+              of Assam archaeologist have established that there have been a number of temple building phases starting
+              from the 5th Century. The temple ruins of Daha Parbatiya in Tezpur, Sonitpur district exquisitely carved
+              in the best tradition of Gupta art has been stylistically dated to 7th Century AD. The ruins in Bamuni
+              Hills of a stone temple again in Tezpur, have been dated to 8th-9th Century AD. The ruins of Madan Kamdev
+              Temple near Guwahati, the ruins of Sri Surya Pahar in Goalpara and the ruins at Na-nath, Dabaka in Nagao
+              talk about continuous temple building activity in the region till the 12 century. The temples were mostly
+              built in the North Indian “Nagara” style, of stone with high plinths.
+            </p>
+            <p align="justify">
+              The primary aim of this research proposal is to document this material evidence and establish the practice
+              of the use of canonical ancient literature of India for temple building in ancient Assam.</p>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingNine">
+          <div class="mb-1">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine"
+              aria-expanded="false" aria-controls="collapseNine">
+              <h4>Engineering and Scientific Study of Heritage Structures</h4>
+            </button>
+          </div>
+        </div>
+        <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+          <div class="card-body">
+            <p align="justify">India is blessed with countless historic structures showcasing incredible craftsmanship
+              and architectural beauty. The Ajanta and Ellora caves of Aurangabad, Taj Mahal of Agra, Sun Temple of
+              Konark, the Vijayanagara remains of Hampi, etc. are only a few examples amongst the numerous golden
+              feathers in the crown of ancient Indian engineering and construction raised centuries ago. Ruled by the
+              powerful kings of Pallavas (600-900 AD), Cholas (900-1150AD), Pandyas (1150-1350 AD), Vijayanagara
+              (1350-1565 AD) and Nayakas (1600-1750 AD), Ahoms (1228–1826), Chaulukyas (940 and 1244 CE) India is dotted
+              with many great architectural marvels which are famous not only for their exquisite sculptures but also
+              for the unbelievable proportions. Methods adopted by them for raising such extreme buildings are unknown
+              to the present generation of engineers and therefore hold a lot of fascination. For example, the
+              Brihadeeshwara temple of Tanjavur district in Tamil Nadu is a fine example of Dravidian architecture and
+              represents the Chola empire ideology. The temple was completed in 1010 AD, under the reign of the king
+              Raja Raja Chola I (985 AD-1014AD), as per the Vaastu Shastra and Agamas. The temple Vimana is a hollow,
+              pyramidal structure, 66 m tall and is one of the tallest temple towers on the earth. The placement of the
+              intact granite capstone or cupola weighing 80 tons atop the Vimana of the temple is the marvellous
+              engineering feat. The use of temporary ramps to take up the capstone with the help of elephants is one of
+              the widely believed methodologies. The slope stability of the temporary ramps under the moving loads and
+              rainfall conditions is a challenging aspect. Similarly, the site selection, construction methodology, and
+              foundation details of these heritage structures from the modern perspective is not known and is an
+              interesting study. The objective of the project is to study the engineering and scientific aspects of the
+              heritage structures. Several modern methods such as ground penetrating radar (GPR), electrical resistivity
+              method (ERM) will be used to find out the adopted foundation methods in the ancient times and analysed
+              based on the present knowledge.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingTen">
+          <div class="mb-1">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen"
+              aria-expanded="false" aria-controls="collapseTen">
+              <h4>Alien Weed of North-East India for Engineering Applications</h4>
+            </button>
+          </div>
+        </div>
+        <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
+          <div class="card-body">
+            <p align="justify">Ageratum houstonianum (flossflower), Chromolaena odorata (Siam Weed), Eichhornia
+              crassipes (water hyacinth), Parthenium weed, and about twenty varieties of invasive alien weeds in India
+              are the most dominant invaders of the Assam vegetation since several decades. Similarly, Mimosa invisa,
+              Mikania micrantha (the “mile-a-minute” vine), and Ipomoea carnea (pink morning glory) are threat to the
+              rhino habitats in Assam. These weeds have havocked the farming community and indigenous vegetation through
+              their serious interference in different cropland and forest ecosystems. These driver species are
+              responsible for declining the indigenous species and alteration of native ecosystems. These weed biomass
+              is cellulosic in nature and quickly biodegrades upon disposal in the environment. A sustainable strategy
+              to manage these weed varieties is either to convert to biochar by pyrolysis and co-pyrolysis process with
+              the limited supply of nitrogen or oxygen under intense heat conditions or use them with soil temporary
+              reinforcement and geotechnical field applications. The application of these weeds in making the
+              prefabricated vertical drains (PVDs) for facilitating the better drainage in soft ground under preloading
+              conditions. As the application of PVDs is temporary, the natural PVDs from the weed would be ideally
+              suited for the engineering applications. Further, the natural geonets and geotextiles from the weed would
+              be useful for the slope protection and erosion control works in the hilly regions of the northeast India.
+              The biochar is useful for (i) soil improvement (to restore soil fertility and improve soil physical
+              properties), (ii) waste management, and (iii) bioenergy generation. This project explores the application
+              of the aforementioned weed varieties in different forms for various engineering applications.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingEleven">
+          <div class="mb-1">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEleven"
+              aria-expanded="false" aria-controls="collapseEleven">
+              <h4>A Proposal for a Museum at IIT Guwahati on “Indian Knowledge and Traditions”</h4>
+            </button>
+          </div>
+        </div>
+        <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
+          <div class="card-body">
+            <p align="justify">Starting from the time of Indus Valley Civilization, India has been rich in knowledge and
+              wisdom. India contributed a lot to mathematics, astronomy and metallurgy until the beginning of Mughal
+              period. Because of the foreign invasions, Indian traditions faded to some extent but could never be wiped.
+              During Mughal and British period, required encouragement was not provided for flourishing the ancient
+              Indian traditions and culture. The traditions could survive to some extent in the places where the
+              aforesaid foreign rulers had less effect. This is evident from the preservation of classical music, Vedic
+              education and temple-architecture in South India in comparison to that in North India. Similarly,
+              Northeast India could preserve the old traditions till the middle of British period.
+            </p>
+            <p align="justify">Northeast India is a land of ancient Indian tribes; some of them originated in
+              neighboring countries like Thailand and Myanmar. Unlike Mughals and British, tribes coming from these
+              neighboring countries did not destroy the Indian culture, rather they enriched it. Also, these
+              civilizations merged in the ocean of Indian civilization. Talking about Northeast India in particular,
+              there are still some Indian practices that are surviving but need the support of society at large and
+              government. Some of these are as follows:
+            </p>
+            <ol>
+              <li><b>Traditional Medicines: </b>Several tribes are practicing herbal medicines in this region. There are
+                a large variety of plants and herbs, which are not available in other parts of the country. Enough
+                documentation is available for traditional healing practices of the tribes. There is a need to showcase
+                and preserve those practices.
+              </li>
+              <li><b>Tantric practices of Assam: </b>Assam has been known as a land of tantra. A village in Morigaon
+                district known as Mayong is believed to be ancient capital of king Ghatotkacha, the son of Bhima. The
+                village used to practice tantras. There is a famous museum called “Mayong Central Museum and Emporium”,
+                which was opened in 2002; it houses some texts on Ayurveda and tantra. In public domain, little is known
+                about the mystic tradition of tantra. There is a lot of scope for scientists and psychologists to
+                research on it.
+              </li>
+              <li><b>Vedic schools: </b>There were a number of Gurukuls in Assam to impart Vedic education. Some of them
+                are still continuing, particularly in lower Assam.
+              </li>
+            </ol>
+            <p align="justify">These are just a few examples. There is a strong need to preserve the ancient texts and
+              sculptures related to these Indian traditions as well as to disseminate this knowledge to masses. The
+              sensitization of public about ancient knowledge will help in further research in some of the good
+              practices.
+            </p>
+            <p align="justify">Indian Institute of Technology Guwahati is a premier educational institute in Guwahati.
+              The campus is having a land of about 285 hectares and is a scenic place. It is about 22 km from the
+              airport and 18 km from railway station. A number of academicians and students visit it for short as well
+              as long durations. If a Museum on Indian Knowledge and Traditions is set up at IIT Campus, it will
+              encourage academic tourism. IIT Guwahati being a technical institute, in a position to apply scientific
+              technology to museum.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="footer text-muted">
+    © 2021 Centre for Indian Knowledge Systems, IIT Guwahati.
+  </div>
+
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        defaultLanguage: 'en',
+        pageLanguage: 'en',
+        includedLanguages: 'hi,as,sa',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+        autoDisplay: false,
+        multilanguagePage: true
+      }, 'google_translate_element')
+    };
+  </script>
+  <script type="text/javascript"
+    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>
