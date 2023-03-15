@@ -1,4 +1,15 @@
-.contacts{
+.container{
+    padding-top: 3%;
+    /* text-align: center; */
+}
+
+h2{
     padding-top: 3%;
     text-align: center;
+}
+
+.address{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 4%;
 }
